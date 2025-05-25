@@ -40,47 +40,6 @@ if 'respostas_aluno' not in st.session_state:
 if 'historico' not in st.session_state:
     st.session_state.historico = []
 
-
-# Função para conectar ao Google Sheets
-def conectar_google_sheets():
-    try:
-        # Verifica se as credenciais estão disponíveis
-        if 'GOOGLE_CREDENTIALS' in os.environ:
-            # Usar credenciais do ambiente
-            credentials_info = json.loads(os.environ['GOOGLE_CREDENTIALS'])
-            credentials = service_account.Credentials.from_service_account_info(
-                credentials_info,
-                scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
-            )
-            client = gspread.authorize(credentials)
-
-            # Tente abrir a planilha existente ou crie uma nova
-            try:
-                planilha = client.open("Resultados_Quiz_Interdisciplinar")
-            except:
-                planilha = client.create("Resultados_Quiz_Interdisciplinar")
-                # Compartilhe com todos que têm o link
-                planilha.share(None, perm_type='anyone', role='reader')
-
-            # Verifique se a planilha "Resultados" existe, senão crie
-            try:
-                worksheet = planilha.worksheet("Resultados")
-            except:
-                worksheet = planilha.add_worksheet(title="Resultados", rows=1000, cols=20)
-                # Adicione cabeçalhos
-                headers = ["Data", "Nome", "Turma", "Pontuação", "Total de Perguntas", "Percentual",
-                           "Tempo (segundos)", "Matérias", "Dificuldade"]
-                worksheet.append_row(headers)
-
-            return worksheet
-        else:
-            st.warning("Credenciais do Google não configuradas. Os resultados serão salvos apenas localmente.")
-            return None
-    except Exception as e:
-        st.error(f"Erro ao conectar com Google Sheets: {e}")
-        return None
-
-
 # Função para salvar os resultados
 def salvar_resultados(nome, turma, pontuacao, total, tempo, materias, dificuldade):
     data = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
