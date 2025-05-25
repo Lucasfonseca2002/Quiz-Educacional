@@ -67,13 +67,13 @@ Foi desenvolvido com base em Projeto de Extensão Oferecido pela **Faculdade Des
        - Instruções para o usuário (Aluno)
        - Professores podem acessar as estatísticas de desempenho dos alunos após a conclusão do quiz.
 
-![image](https://github.com/user-attachments/assets/f2eae889-b6ed-4fce-9e14-5e77c1565a0e)
+![image](https://github.com/user-attachments/assets/b9b108ce-dac2-4bf7-8c53-a4ae5b0f2154)
 
 ### **Tela de Perguntas **
 
 1. Apresenta a matéria selecionada pelo aluno, quantidade de perguntas, nível da pergunta.
 
-![image](https://github.com/user-attachments/assets/11d3cb08-9939-43a9-8f38-5d0ea7c10da0)
+![image](https://github.com/user-attachments/assets/011f0ffc-b4e8-476b-81c1-05e275589d5f)
 
 ###** Tela de Resultado**
 
@@ -82,10 +82,11 @@ Foi desenvolvido com base em Projeto de Extensão Oferecido pela **Faculdade Des
      - Iniciar um novo quiz.
      - Ver o desempenho dos alunos - "Ver estatísticas"
        
-![image](https://github.com/user-attachments/assets/2f6c67a3-be1a-4f5d-b408-54998b76cc72)
+![image](https://github.com/user-attachments/assets/67b8f620-ff14-4624-a2da-b3f6826cc8ed)
 
 - **Tela de estatísticas:**
     - Capaz de exportar o relatório do Quiz.
 
-![image](https://github.com/user-attachments/assets/8dea3d86-61db-4141-be7e-08c5c4c92f51)
+![image](https://github.com/user-attachments/assets/9e575cb3-446a-46d6-9ce0-7e47a547ff8e)
+
 
