@@ -5,8 +5,6 @@ import random
 import datetime
 import os
 from io import BytesIO
-import gspread
-from google.oauth2 import service_account
 import json
 
 # Importando o banco de perguntas
