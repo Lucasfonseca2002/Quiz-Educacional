@@ -89,4 +89,7 @@ Foi desenvolvido com base em Projeto de Extensão Oferecido pela **Faculdade Des
 
 ![image](https://github.com/user-attachments/assets/9e575cb3-446a-46d6-9ce0-7e47a547ff8e)
 
+## Caso enfrente dúvidas refentes a aplicação pode me consultar via **e-mail:** lucasfonsecabf@gmail.com ou via **Linkedin:** https://www.linkedin.com/in/lucas-fonseca-21080a203/
+
+
 
