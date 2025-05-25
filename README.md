@@ -5,6 +5,8 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
 
 Foi desenvolvido com base em Projeto de Extensão Oferecido pela **Faculdade Descomplica digital**
 
+Para a instalação é recomendado fazer as instalações das bibliotecas contidas no **arquivo requirements.txt**
+
 ## **Funcionalidades**
 
 📝 - Cadastro de aluno e turma
