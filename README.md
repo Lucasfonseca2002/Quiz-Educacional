@@ -1,10 +1,11 @@
-#  🧠 Quizz Interdisciplinar Educacional
+#  🧠 **Quizz Interdisciplinar Educacional**
 
 Um aplicativo interativo desenvolvido com Streamlit e Python que tem objetivo de promover o aprendizado interdisciplinar de forma interativa e personalizada para alunos do **Ensino Fundamental I e II**. O quiz é adaptável por matéria , dificuldade e número de perguntas,
 ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao finalizar o quiz.
 
+Foi desenvolvido com base em Projeto de Extensão Oferecido pela **Faculdade Descomplica digital**
 
-## Funcionalidades
+## **Funcionalidades**
 
 📝 - Cadastro de aluno e turma
 
@@ -21,7 +22,7 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
 📥 - Exportação dos resultados em Excel (.xlsx)
 
 
-## Tecnologias utilizadas:
+## **Tecnologias utilizadas:**
 
 - Streamlit
 - Pandas
@@ -29,7 +30,7 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
 - gspread + Google API ( Sheets e Drive) - opcional, caso não tenha a API, fornece a opção e baixar o relatório via excel.
 
 
-## Para Professores
+## **Para Professores**
 
 - Você pode usar este quiz em sala de aula para:
 
@@ -40,9 +41,9 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
 - Acompanhar evolução por tema/matéria
 
 
-## Demostração do projeto
+## **Demostração do projeto**
 
-### Tela Inicial - principais elementos e funcionalidades:
+### **Tela Inicial - principais elementos e funcionalidades:**
 
 1. Menu do Quizz (Lateral Esquerda):
   - Nome do Aluno: Campo para que o aluno preencha seu nome
@@ -68,13 +69,13 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
 
 ![image](https://github.com/user-attachments/assets/f2eae889-b6ed-4fce-9e14-5e77c1565a0e)
 
-### Tela de Perguntas - 
+### **Tela de Perguntas **
 
 1. Apresenta a matéria selecionada pelo aluno, quantidade de perguntas, nível da pergunta.
 
 ![image](https://github.com/user-attachments/assets/11d3cb08-9939-43a9-8f38-5d0ea7c10da0)
 
-### Tela de Resultado
+###** Tela de Resultado**
 
 1. É capaz de verificar quais foram os acertos do aluno.
 2. No menu lateral tem duas funcionalidades:
@@ -83,7 +84,7 @@ ele fornece estatísticas detalhadas a respeito do desempenho de cada aluno ao f
        
 ![image](https://github.com/user-attachments/assets/2f6c67a3-be1a-4f5d-b408-54998b76cc72)
 
-- Tela de estatísticas:
+- **Tela de estatísticas:**
     - Capaz de exportar o relatório do Quiz.
 
 ![image](https://github.com/user-attachments/assets/8dea3d86-61db-4141-be7e-08c5c4c92f51)
