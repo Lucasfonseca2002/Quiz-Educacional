@@ -57,18 +57,6 @@ def salvar_resultados(nome, turma, pontuacao, total, tempo, materias, dificuldad
     }
     st.session_state.historico.append(resultado)
 
-    # Salvar no Google Sheetsp
-    worksheet = conectar_google_sheets()
-    if worksheet:
-        try:
-            worksheet.append_row([
-                data, nome, turma, pontuacao, total, percentual,
-                tempo, ", ".join(materias), dificuldade
-            ])
-        except Exception as e:
-            st.error(f"Erro ao salvar no Google Sheets: {e}")
-
-
 # Função para exportar resultados como Excel
 def exportar_excel():
     if len(st.session_state.historico) > 0:
